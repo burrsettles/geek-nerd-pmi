@@ -18,4 +18,6 @@ Compute the PMIs by running Python 2.7 scripts in the order numbered:
 
 You'll need to edit ```4_final_scores.py``` to accomodate whatever words you are analyzing.
 
+Also, if the corpus files are large, I'd recommend using the [pypy](http://pypy.org/) python interpreter, as it ran 2-4 times as fast for me.
+
 **Note that I offer absolutely zero support for these scripts**, and I'm kind of embarrassed by them, but a lot of people have asked, and I don't care to clean them up, so here's how the sausage was made. I hacked the pipeline together over about an hour for a weekend project, so yes, it's sloppy. And I'd only really been using Python for a few of months at this point. Also, I didn't do any smoothing on the probabilities. The Rev. Bayes would be so disappointed.
